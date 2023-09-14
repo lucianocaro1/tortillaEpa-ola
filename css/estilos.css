@@ -1,0 +1,29 @@
+body    {
+    background-image: url(../imagenes/bandera.jpg);
+    background-repeat: no-repeat;
+    background-position: right ;
+    background-size: cover;
+}
+.tituloR    {
+    font-size: 50px;
+    color: hsl(54, 80%, 42%);
+    text-decoration:underline;
+    text-align: center;
+}
+.subtitulosR {
+    font-size: 25px;
+    color: hsl(54, 80%, 42%);
+    text-decoration: underline;
+    
+}
+.subtitulosA    {
+    font-size: 25px;
+    color: rgb(194, 7, 7);
+    text-decoration: underline;
+}
+.parrafos   {
+    font-size: 17px;
+}
+.imagen     {
+    height: 279px;
+}
