@@ -1,29 +1,68 @@
 body    {
-    background-image: url(../imagenes/bandera.jpg);
-    background-repeat: no-repeat;
-    background-position: right ;
-    background-size: cover;
+    background-color:red ;
 }
+
+header    {
+    background-color: red;
+}
+
+nav {
+    background-color: red;
+}
+
+main    {
+    background-color: yellow;
+}
+
+footer  {
+    display: flex;
+    background-color: red;
+}
+
 .tituloR    {
     font-size: 50px;
     color: hsl(54, 80%, 42%);
     text-decoration:underline;
     text-align: center;
 }
-.subtitulosR {
+
+.subtitulosR     {
     font-size: 25px;
-    color: hsl(54, 80%, 42%);
+    color: hsl(0, 86%, 45%);
     text-decoration: underline;
-    
+    text-align: center;
 }
+
 .subtitulosA    {
     font-size: 25px;
     color: rgb(194, 7, 7);
     text-decoration: underline;
+    text-align: center;
 }
+
 .parrafos   {
     font-size: 17px;
+    text-align: center;
 }
+
 .imagen     {
     height: 279px;
+    position: center;
+}
+
+.footer   {
+     justify-content: center;
+     align-items: center;
+}
+
+footer a    {
+    color: rgb(10, 4, 39);
+    margin: 30px;
+    font-size: 30px;
+}
+
+.buttonWhp  {
+    font-size:60px ;
+    position: fixed;
+    color: green;
 }
