@@ -1,17 +1,17 @@
 body    {
-    background-color:red ;
+    background-color:rgb(223, 201, 4) ;
+    margin: 0;
+}
+header  {
+    display: flex;
+    background-color: rgb(192, 1, 1);
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-header    {
-    background-color: red;
-}
+nav ul    {
+    display: flex;
 
-nav {
-    background-color: red;
-}
-
-main    {
-    background-color: yellow;
 }
 
 footer  {
@@ -19,11 +19,13 @@ footer  {
     background-color: red;
 }
 
+
+
 .tituloR    {
+    display: flex;
     font-size: 50px;
-    color: hsl(54, 80%, 42%);
+    color: hsl(253, 100%, 19%);
     text-decoration:underline;
-    text-align: center;
 }
 
 .subtitulosR     {
@@ -41,28 +43,80 @@ footer  {
 }
 
 .parrafos   {
+    color: hsl(253, 100%, 19%) ;
     font-size: 17px;
     text-align: center;
 }
 
+.listas   {
+    color: hsl(253, 100%, 19%);
+}
+
 .imagen     {
+
     height: 279px;
-    position: center;
 }
 
 .footer   {
      justify-content: center;
      align-items: center;
+     flex-wrap: wrap;
 }
 
 footer a    {
-    color: rgb(10, 4, 39);
+    color: hsl(253, 100%, 19%);
     margin: 30px;
     font-size: 30px;
+    flex-wrap: nowrap;
 }
 
 .buttonWhp  {
-    font-size:60px ;
+    font-size: 60px;
     position: fixed;
     color: green;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header img {
+    display: flex;
+    justify-content: flex-start;
+    height: 100px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    margin-left: 30px ;
+    margin-right: 60px;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+
+header a{
+    padding: 5px;
+    margin: 5px;
+    color: hsl(253, 100%, 19%);
+}
+
+footer iframe{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer div {
+    border: 
+
 }
