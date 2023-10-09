@@ -1,9 +1,11 @@
 body    {
     background-color:rgb(223, 201, 4) ;
     margin: 0;
+    padding: 0;
 }
 header  {
     display: flex;
+    width: 100%;
     background-color: rgb(192, 1, 1);
     justify-content: space-between;
     flex-wrap: wrap;
@@ -17,15 +19,14 @@ nav ul    {
 footer  {
     display: flex;
     background-color: red;
+
 }
-
-
 
 .tituloR    {
     display: flex;
     font-size: 50px;
     color: hsl(253, 100%, 19%);
-    text-decoration:underline;
+    font-family: 'Amatic SC', cursive;
 }
 
 .subtitulosR     {
@@ -33,6 +34,7 @@ footer  {
     color: hsl(0, 86%, 45%);
     text-decoration: underline;
     text-align: center;
+    font-family: 'Amatic SC', cursive;
 }
 
 .subtitulosA    {
@@ -40,6 +42,7 @@ footer  {
     color: rgb(194, 7, 7);
     text-decoration: underline;
     text-align: center;
+    font-family: 'Amatic SC', cursive;
 }
 
 .parrafos   {
@@ -58,16 +61,22 @@ footer  {
 }
 
 .footer   {
-     justify-content: center;
-     align-items: center;
-     flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-footer a    {
+footer a{
     color: hsl(253, 100%, 19%);
     margin: 30px;
     font-size: 30px;
     flex-wrap: nowrap;
+}
+
+aside{
+    display: flex;
+    justify-content: flex-end;
 }
 
 .buttonWhp  {
@@ -86,7 +95,7 @@ article {
 header img {
     display: flex;
     justify-content: flex-start;
-    height: 100px;
+    width: 15%;
 }
 
 .logo{
@@ -94,16 +103,15 @@ header img {
     align-items: center;
 }
 .logo img{
-    margin-left: 30px ;
-    margin-right: 60px;
+    margin: 5%;
 }
 
 .links{
     display: flex;
     align-items: center;
     margin-right: 30px;
+    font-size: 30px;
 }
-
 
 header a{
     padding: 5px;
@@ -116,7 +124,48 @@ footer iframe{
     margin-bottom: 10px;
 }
 
-footer div {
-    border: 
+.navPosition{
+    display: flex;
+    background-color: rgb(201, 23, 23);
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-family: 'Amatic SC', cursive;
 
+}
+.navPosition a{
+    color: hsl(253, 100%, 19%);
+    text-decoration: none;
+    font-size: 25px;
+    padding: 5%;
+}
+
+.iconsMain a{
+    padding: 10%;
+}
+
+.iconsMain {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 30px;
+
+}
+.iconsMain a:hover{
+    color: red ;
+    transition: 500ms;
+    font-size: 60px;
+}
+.navPosition a:hover{
+    background-color: yellow;
+    color:red;
+    transition: 500ms;
+}
+.iconsFooter a:hover{
+    color:yellow;
+    transition: 500ms;
+}
+
+.links a:hover{
+    color: yellow;
+    transition: 500ms;
 }
