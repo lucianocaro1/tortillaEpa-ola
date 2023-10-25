@@ -177,6 +177,7 @@ footer iframe{
     width: 60vw;
 }
 
+
 @media (max-width: 700px){
     .buttonWhp{
         display: none;
@@ -192,11 +193,4 @@ footer iframe{
     }
 }
 
-.cards{
-    display: flex;
-    flex-wrap: wrap;
-}
 
-.card{
-    width: 18rem;
-}
