@@ -191,3 +191,12 @@ footer iframe{
         display: none;
     }
 }
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 18rem;
+}
