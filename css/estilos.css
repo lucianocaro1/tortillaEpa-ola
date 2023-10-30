@@ -177,6 +177,10 @@ footer iframe{
     width: 60vw;
 }
 
+.card{
+    margin-top: 20px;
+}
+
 
 @media (max-width: 700px){
     .buttonWhp{
